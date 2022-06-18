@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit & withdraw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-box" id="login-box">
+        <br><br><br><br><br><br><br>
+        <input id="email" class="input-login" type="email" placeholder="Email">
+        <input id="pass" class="input-login" type="password" placeholder="Password">
+        <br><br>
+        <div class="btn">
+           <button class="login" id="login-btn">Login</button>
+        </div>
+    </div>
+
+    <div class="main-page-balance" id="main-page">
+        <div class="balance">
+            <h1>Balance : <span id="total_balance">100</span></h1>
+        </div>
+
+        <div class="left-div">
+            <h1>Deposit: <spant id="total_deposit">00</span></h1>
+            <input class="deposit" id="deposit_input" type="text" placeholder="Deposit-Quantity">
+            <button id="Add_depositBTN" class="add">add Money</button>
+        </div>
+        <div class="right-div">
+            <h1>withdrw: <spant id="total_withdraw">00</span></h1>
+            <input class="withdraw" id="withdraw_input" type="text" placeholder="Withdraw-Quantity">
+            <button class="withdrw" id="withdraw">Widthdrw</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
